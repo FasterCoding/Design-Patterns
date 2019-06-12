@@ -1,6 +1,12 @@
 #include "User.hpp"
 
-User::User() {}
+User::User(string firstName,
+           string lastName,
+           int age,
+           string street) : _firstName(firstName),
+                            _lastName(lastName),
+                            _age(age),
+                            _street(street) {}
 
 void User::setFirstName(string name) {
     _firstName = name;

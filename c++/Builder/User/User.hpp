@@ -17,7 +17,10 @@ private:
     
 public:
 
-    User();
+    User(string firstName,
+         string lastName,
+         int age,
+         string street);
     
     void setFirstName(string name);
     string getFirstName();
