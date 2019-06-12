@@ -9,6 +9,7 @@ This repository demonstrate different design patterns in the languages
 ## Patterns
 
 1. Singleton
+1. Builder
 
 ## How to Test
 
